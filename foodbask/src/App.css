@@ -4,14 +4,49 @@
 @tailwind components;
 @tailwind utilities;
 
-.card{
-    @apply bg-white rounded overflow-hidden shadow-md relative;
-}
-
-.badge{
-    @apply bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2 flex items-center;
-}
 
 .btn{
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
 }
+
+/* test */
+/* In your App.css or a custom CSS file */
+.perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+/* another test */
+.card {
+    @apply bg-white rounded overflow-hidden shadow-md relative transform transition-transform duration-500;
+  }
+  
+  .card-inner {
+    @apply w-full h-full relative transform-style-preserve-3d transition-transform duration-500;
+  }
+  
+  .card-front {
+    @apply relative w-full h-full backface-hidden;
+  }
+  
+  .card-back {
+    @apply bg-white transform rotate-y-180 absolute w-full h-full backface-hidden;
+  }
+  
+  .card.flipped .card-inner {
+    @apply transform rotate-y-180;
+  }
+  
+  .badge {
+    @apply bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2 flex items-center;
+  }
