@@ -61,7 +61,7 @@ const Cards = () => {
                 <div className='card-back overflow-auto'>
                     <div className='mt-4'>
                         <span className='font-bold'>Ingredients:</span>
-                        <ul className='text-gray-500 text-sm mt-2'>
+                        <ul className='list'>
                             <li>Goat Meat</li>
                             <li>Pasta</li>
                             <li>1 Bell pepper to 2 Habanero (scotch bonnet)</li>
@@ -71,7 +71,7 @@ const Cards = () => {
                         </ul>
                         <span className='font-bold'>Preparation:</span>
                         <span className='text-gray-500 text-sm mt-2'>
-                        Boil your meat. Using a food processor, roughly blend your peppers, onions and garlic.
+                        <b /> Boil your meat. Using a food processor, roughly blend your peppers, onions and garlic.
                         Fry on medium heat and set aside. Drain your goat meat and place on a baking sheet/pan, you can pop this in your oven or air fryer.
                         Keep watching every 10mins and turn over until slightly roasted.
                         Sauté your goat meat in the pepper medly and add some bullion cube and salt to taste.
@@ -121,7 +121,7 @@ const Cards = () => {
                 <div className='card-back overflow-auto'>
                     <div className='mt-4'>
                         <span className='font-bold'>Ingredients:</span>
-                        <ul className='text-gray-500 text-sm mt-2'>
+                        <ul className='list'>
                             <li>Grain rice</li>
                             <li>3 tbsp vegetable oil</li>
                             <li>1 onion, finely chopped</li>
@@ -177,7 +177,7 @@ const Cards = () => {
                 <div className='card-back overflow-auto'>
                     <div className='mt-4'>
                         <span className='font-bold'>Ingredients:</span>
-                        <ul className='text-gray-500 text-sm mt-2'>
+                        <ul className='list'>
                             <li>Pasta</li>
                             <li>Chicken</li>
                             <li>Garlic powder</li>
@@ -244,7 +244,7 @@ const Cards = () => {
               <div className='card-back overflow-auto'>
                     <div className='mt-4'>
                         <span className='font-bold'>Ingredients:</span>
-                        <ul className='text-gray-500 text-sm mt-2'>
+                        <ul className='list'>
                             <li>2 cups long grain rice</li>
                             <li>1 jar of  Ata Din Din Sauce, drained of oil</li>
                             <li>4 cups of chicken stock</li>
@@ -308,7 +308,7 @@ const Cards = () => {
               <div className='card-back overflow-auto'>
                     <div className='mt-4'>
                         <span className='font-bold'>Ingredients:</span>
-                        <ul className='text-gray-500 text-sm mt-2'>
+                        <ul className='list'>
                             <li>4 cups of rice.</li>
                             <li>5 cups of sliced Cabbage.</li>
                             <li>2 cups of sliced Carrot.</li>
@@ -368,7 +368,7 @@ const Cards = () => {
               <div className='card-back overflow-auto'>
                     <div className='mt-4'>
                         <span className='font-bold'>Ingredients:</span>
-                        <ul className='text-gray-500 text-sm mt-2'>
+                        <ul className='list'>
                             <li>Tomatoes</li>
                             <li>Red bell pepper</li>
                             <li>Red onion</li>

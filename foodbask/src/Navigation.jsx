@@ -61,7 +61,7 @@ const Navigation = () => {
               href="/"
               className="px-4 flex justify-end hover:border-r-4 hover:border-primary"
             >
-              <span>About</span>
+              <span>Recipes</span>
               <svg
                 class="w-5 ml-2"
                 xmlns="http://www.w3.org/2000/svg"

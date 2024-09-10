@@ -27,6 +27,9 @@
     backface-visibility: hidden;
   }
 /* another test */
+.list{
+  @apply text-gray-500 text-sm mt-2 list-disc list-inside mb-4;
+}
 .card {
     @apply bg-white rounded overflow-hidden shadow-md relative transform transition-transform duration-500;
   }
